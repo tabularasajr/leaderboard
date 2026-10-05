@@ -1,0 +1,13 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "description": "A tiny arcade leaderboard: keeps scores and prints the top five.",
+  "type": "module",
+  "main": "src/leaderboard.js",
+  "bin": { "leaderboard": "leaderboard.js" },
+  "scripts": {
+    "start": "node leaderboard.js",
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
